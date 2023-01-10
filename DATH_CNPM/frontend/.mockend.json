@@ -1,0 +1,168 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "name": "Beef steak",
+            "body": {
+                "description": "An original beef steak recipe from chef Gorden Rassey",
+                "calories": 150,
+                "protein": 90,
+                "fat": 10,
+                "carb": 50
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://izzycooking.com/wp-content/uploads/2022/05/Grilled-Beef-Steak-thumbnail.jpg",
+            "rate": 4
+        },
+        {
+            "id": 2,
+            "name": "Chicken Salad",
+            "body": {
+                "description": "A easy, delicious dish for lunch",
+                "calories": 210,
+                "protein": 140,
+                "fat": 20,
+                "carb": 50
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://cafedelites.com/wp-content/uploads/2016/07/Lemon-Herb-Mediterranean-Chicken-Salad-208-1.jpg",
+            "rate": 3.5
+        },
+        {
+            "id": 3,
+            "name": "Granola with yogurt",
+            "body": {
+                "description": "A easy, delicious dish for lunch",
+                "calories": 170,
+                "protein": 0,
+                "fat": 40,
+                "carb": 130
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://freshapron.com/wp-content/uploads/2022/05/Yogurt-Granola-Bowl-02.jpg",
+            "rate": 3.9
+        },
+        {
+            "id": 4,
+            "name": "Pan cake",
+            "body": {
+                "description": "Fast breakfast, but still active",
+                "calories": 190,
+                "protein": 40,
+                "fat": 50,
+                "carb": 100
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://kickassbaker.com/wp-content/uploads/2022/04/self-rising-flour-pancake-recipe.jpg",
+            "rate": 3
+        }
+    ],
+    "favorite": [
+        {
+            "id": 1,
+            "name": "Beef steak",
+            "body": {
+                "description": "An original beef steak recipe from chef Gorden Rassey",
+                "calories": 150,
+                "protein": 90,
+                "fat": 10,
+                "carb": 50
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://izzycooking.com/wp-content/uploads/2022/05/Grilled-Beef-Steak-thumbnail.jpg",
+            "rate": 4
+        },
+        {
+            "id": 2,
+            "name": "Granola with yogurt",
+            "body": {
+                "description": "A easy, delicious dish for lunch",
+                "calories": 170,
+                "protein": 0,
+                "fat": 40,
+                "carb": 130
+            },
+            "recipe": [
+                {
+                    "step": 1,
+                    "body": "Do step 1"
+                },
+                {
+                    "step": 2,
+                    "body": "Do step 2"
+                },
+                {
+                    "step": 3,
+                    "body": "Do step 3"
+                }
+            ],
+            "imgSrc": "https://freshapron.com/wp-content/uploads/2022/05/Yogurt-Granola-Bowl-02.jpg",
+            "rate": 3.9
+        }
+    ]
+  }

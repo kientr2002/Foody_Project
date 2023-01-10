@@ -1,0 +1,76 @@
+\subsection{Yêu cầu chức năng và Phi chức năng}
+    \subsubsection{Yêu cầu chức năng - Functional Requirements}
+    \begin{enumerate}
+        \item \textbf{Đối với Admin:}
+        
+        \vspace{0.3cm}
+        
+        \begin{tblr}{
+            width=1\linewidth,
+            hlines, 
+            vlines,
+            colspec={X[-1]X[4]X[7]},
+            columns = {valign = m, },
+            row{1} = {halign = c, valign = m, bg = lightgray, fg = black},
+            }
+            {\textbf{\#}} & \textbf{Chức năng} & {\textbf{Mô tả}} \\
+            1 & Xem thông tin cá nhân & Cho phép xem chi tiết thông tin cá nhân của admin.\\
+            2 & Quản lý tài khoản &  Khóa các tài khoản trong hệ thống.\\
+            3 & Quản lý các món ăn & Thêm, sửa, xóa món ăn hoặc công thức nấu ăn.\\
+            4 & Quản lý bình luận & Thêm, sửa, xóa các bình luận.\\
+            5 & Quản lý mật khẩu & Cho phép thay đổi mật khẩu trong trường hợp mong muốn hoặc thay đổi mật khẩu và có phương án xác thực dự phòng trong trường hợp quên mật khẩu.\\
+            6 & Đăng nhập, đăng xuất  & Admin có thể đăng nhập vào hệ thống.\\
+        \end{tblr}
+    
+        \vspace{0.7cm}
+        \item \textbf{Đối với người dùng:}
+        
+        \vspace{0.3cm}
+        
+        \begin{tblr}{
+            width=1\linewidth,
+            hlines, 
+            vlines,
+            colspec={X[-1]X[4]X[7]},
+            columns = {valign = m, },
+            row{1} = {halign = c, valign = m, bg = lightgray, fg = black},
+            }
+            {\textbf{\#}} & \textbf{Chức năng} & {\textbf{Mô tả}} \\
+            1 & Xem thông tin cá nhân & Cho phép xem chi tiết thông tin cá nhân của người dùng.\\
+            2 & Tính chỉ số TDEE &  Tính chỉ số từ đó đưa ra gợi ý về mục tiêu cho người dùng.\\
+            3 & Gợi ý các món ăn & Hệ thống gợi ý các món ăn phân theo bữa phù hợp với mục tiêu và chỉ số TDEE của ngươi dùng.\\
+            4 & Tạo lịch ăn & Người dùng tạo lịch ăn trong ngày.\\
+            5 & Hướng dẫn nấu & Hướng dẫn người dùng từng bước nấu các món ăn.\\
+            6 & Tạo danh sách ưa thích & Cá nhân hóa từng bữa ăn bằng cách thêm các món ăn ưa thích vào danh sách.\\
+            7 & Cập nhật thông tin & Cập nhật định kì các chỉ số của  người dùng. \\
+            8 & Đánh giá món ăn & Đánh giá và đưa ra bình luận về các món ăn. \\
+            9 & Quản lý mật khẩu & Cho phép thay đổi mật khẩu trong trường hợp mong muốn hoặc thay đổi mật khẩu và có phương án xác thực dự phòng trong trường hợp quên mật khẩu.\\
+            10 & Đăng nhập, đăng xuất  & Người dùng có thể đăng nhập vào hệ thống.\\
+            11 & Đăng ký thành viên & Người dùng có thể đăng ký làm thành viên. \\
+        \end{tblr}
+    \end{enumerate}
+    
+    \subsubsection{Yêu cầu phi chức năng - Non-functional Requirements}
+        
+        \vspace{0.3cm}
+    
+        \begin{tblr}{
+                width=1\linewidth,
+                hlines, 
+                vlines,
+                colspec={X[3]X[7]},
+                columns = {valign = m, },
+                row{1} = {halign = c, valign = m, bg = lightgray, fg = black},
+            }
+                {\textbf{Yêu cầu phi chức năng}} & \textbf{Thang đo yêu cầu} \\
+                Giao diện & Giao diện đẹp, thân thiện và dễ sử dụng.\newline Có tutorial giúp người dùng có thể sử dụng thành thục sau 5 phút. \\
+                Ngôn ngữ & Tiếng Việt. \\
+                Hiệu năng, Tốc độ &  Tốc độ đưa ra gợi ý: $\leq$ 10s. \newline Tốc độ của các tác vụ khác: $\leq$ 5s. \newline Mức chênh lệch calo các món ăn đề xuất nhỏ hơn 150 calo.\\
+                Kích thước & Dữ liệu có thể tiếp nhận ít nhất 100 món ăn.\\
+                Tương thích & Tương thích với hệ điều hành Android.\\
+                Tin cậy & Hệ thống xây dựng đảm bảo tốt cho việc theo dõi thể trạng sức khỏe người dùng trong thời gian liên tục. \newline  Tỷ lệ xảy ra lỗi thấp (< 0.1 $\%$).\\
+                Bảo mật & Mật khẩu đăng nhập phải được mã hóa. \newline Thông tin về người dùng (Về các chỉ số cơ thể, Chế độ tập luyện,...) chỉ được phép truy cập bởi chính người dùng đó.\\
+                Bảo trì & Mỗi lần nâng cấp, bảo trì hệ thống định kỳ (theo quý 3 tháng) thì không mất quá 2 tiếng. \\
+                Mở rộng & Hệ thống có thể mở rộng nhiều món ăn hơn trong tương lai.\\
+                Sao Lưu & Sao lưu dữ liệu người dùng 1 ngày/lần. \\
+            \end{tblr}
